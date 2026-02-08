@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f4f6f8;
+  direction: rtl;
+}
+
+#app {
+  max-width: 1000px;
+  margin: auto;
+  padding: 16px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.game {
+  display: flex;
+  gap: 10px;
+}
+
+.column {
+  flex: 1;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.column h3 {
+  text-align: center;
+}
+
+.item {
+  padding: 8px;
+  margin: 6px 0;
+  background: #eaeaea;
+  border-radius: 6px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.item.selected {
+  background: #cce5ff;
+}
+
+.item.correct {
+  background: #c8f7c5;
+}
+
+.item.wrong {
+  background: #f7c5c5;
+}
+
+#nextBtn {
+  margin-top: 12px;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
